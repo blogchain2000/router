@@ -1,0 +1,18 @@
+{
+  "name": "blogchain2000/router",
+  "authors": [
+    {
+      "name": "Philipp Waldhauer",
+      "email": "ich@philippwaldhauer.de"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Blogchain\\": "src/Blogchain"
+    }
+  },
+  "require": {
+    "blogchain2000/core": "*",
+    "slim/slim": "^3.10"
+  }
+}
